@@ -1,0 +1,239 @@
+/*Скидання стилів для однакового перегляду у всіх браузерах*/
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,input,textarea,p,blockquote,th,td,menu{
+margin:0;padding:0;
+}
+table{
+border-collapse:collapse;border-spacing:0;
+}
+fieldset,img,abbr{
+border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+font-style:normal;font-weight:normal;
+}
+ul li{
+list-style:none;
+}
+caption,th{
+text-align:left;
+}
+/*h1,h2,h3,h4,h5,h6{
+font-size:100%;font-weight:normal;
+}
+*/
+sup{
+vertical-align:text-top;
+}
+sub{
+vertical-align:text-bottom;
+}
+input,textarea,select{
+font-family:inherit;font-size:inherit;font-weight:inherit;
+}
+legend{
+color:#000;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+display:block;
+}
+/*Скидання стилів для однакового перегляду у всіх браузерах*/
+body {
+background: linear-gradient(#F0F0F0, #A4C8CE);
+font-family: Verdana,sans-serif;
+font-size:14px;
+}
+
+#night {
+position:relative;
+left:25px;
+}
+
+#wrapper {
+width:950px;
+margin:50px auto;
+background: #fff;
+}
+
+div {
+border:1px solid black;
+}
+
+p, h1, h2, h3{
+padding:10px;
+}
+
+#header {
+height:150px;
+background-image: url(../images/logo.jpg);
+background-size:240px;
+}
+
+#menu li {
+display:inline-block;
+background:#F4F9FF;
+padding:12px;
+
+}
+#menu li a {
+text-decoration:none;
+}
+
+#links {
+height:50px;
+}
+
+.wrap{
+	max-width: 950px;
+	height: inherit;
+	position: relative;
+	border:none;
+	margin-left:151px;
+	margin-top:3px;
+}
+
+#links  .animation{
+	width: 10px;
+	height: 47px;
+	background-size: 100%;
+	position: absolute;
+	animation: ball 10s infinite;
+	border:2px solid #005997;
+	bottom: 3px;
+} 
+
+@keyframes ball{
+	0%{right: 135px;}
+	50%{right: 795px;}
+	100%{right: 135px;}
+}
+
+#left {
+height:1000px;
+width:20%;
+float:left;
+}
+
+#content {
+height:1000px;
+overflow:hidden;
+}
+
+#footer {
+height:50px;
+clear:both;
+text-align:center;
+line-height:50px;
+background: linear-gradient(rgba(0,255,0,0),#A4C8CE);
+}
+/* Список продуктів */
+#catalog{
+width:150px;
+text-align:center;
+margin:20px auto;
+}
+#catalog li {
+background:#F4F9FF;
+}
+#catalog li a {
+display:block;
+text-decoration:none;
+padding:12px;
+}
+
+/* ----------Стилі форм------- */
+.question {
+font-weight:bold;
+}
+
+fieldset {
+margin:10px;
+padding:10px;
+border:1px solid #E7E6E8;
+background-color:#FCFBFC;
+}
+
+textarea {
+border:1px solid #E7E6E8;
+background-color:#F4F9FF;
+width:500px;
+margin:0 10px;
+font:12px Verdana;
+padding:0 7px;
+}
+
+textarea:focus {              /*коли натискається на поле введення, змінює характеристики*/
+border:2px solid #5D6CB2;
+background-color:#FFFFFF;
+}
+
+.input {
+border:1px solid #E7E6E8;
+height:27px;
+background-color:#F4F9FF;
+font:12px Verdana;
+input-height:27px;     /*Для інтернет експлорер*/
+padding:0 7px;
+}
+
+.input:focus {
+border:2px solid #5D6CB2;
+background:none;
+background-color:#FFFFFF;
+}
+
+label {
+cursor:pointer;             /*появляється курсор в вигляді руки*/
+}
+
+#buttons {
+text-align:center;
+border:hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.catalog a {
+color: yellow;
+}		
+.catalog > li > a {
+font-size: 25px;
+}
+
+.odd {
+	color:#ff0;
+}	
+
+li:hover{
+	color:red;
+	cursor:pointer;
+}
+
+.catalog2 li:nth-child(3n-1){        /* 3*0-1=-1   3*1-1=2  3*2-1=5  3*3-1=8 */
+	color:#00f;
+}
+
+.menu li {
+display:inline;
+background:#777;
+padding:10px;
+}
+
+.sales{
+display:inline-block;
+}
+.sales div{
+display:inline-block;
+width:200px;
+height:300px;
+border:1px solid black;
+}

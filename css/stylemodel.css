@@ -1,0 +1,153 @@
+/*Скидання стилів для однакового перегляду у всіх браузерах*/
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,input,textarea,p,blockquote,th,td,menu{
+margin:0;padding:0;
+}
+table{
+border-collapse:collapse;border-spacing:0;
+}
+fieldset,img,abbr{
+border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+font-style:normal;font-weight:normal;
+}
+ul li{
+list-style:none;
+}
+caption,th{
+text-align:left;
+}
+//h1,h2,h3,h4,h5,h6{
+//font-size:100%;font-weight:normal;
+//}
+sup{
+vertical-align:text-top;
+}
+sub{
+vertical-align:text-bottom;
+}
+input,textarea,select{
+font-family:inherit;font-size:inherit;font-weight:inherit;
+}
+legend{
+color:#000;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+display:block;
+}
+/*Скидання стилів для однакового перегляду у всіх браузерах*/
+
+
+body {
+background-image: url(../images/background.jpg);
+}
+
+#wrapper {
+width: 947px;
+background: #fff;
+margin:70px auto;
+border-radius:10px;
+box-shadow: 0 0 0 7px rgba(0, 0, 0, 0.3);
+}
+
+#header {
+height: 105px;
+border-bottom: 1px solid #eeeeee;
+}
+
+#logo {
+float:left;
+margin-top: 25px;
+margin-left: 25px;
+}
+
+#menu {
+float:right;
+margin-top: 45px;
+margin-right: 25px;
+}
+
+#menu li {
+display:inline;
+}
+
+#menu li a{
+text-decoration:none;
+padding:0 20px;
+}
+
+#menu li:hover{
+background:#C19A6F;
+border-radius:5px;
+}
+
+#abouth {
+height: 105px;
+border-bottom: 1px solid #eeeeee;
+}
+
+#right {
+height: 608px;
+width: 268px;
+float: right;
+}
+
+#right p{
+margin:25px 0 25px 0;
+}
+
+.list{
+width:220px;
+list-style-type:none;
+}
+
+.list li {
+background: #F9F9F9;
+margin-bottom:1px;
+}
+
+
+#content {
+height: 608px;
+overflow:hidden;
+border-right: 1px solid #eeeeee;
+padding-left:40px;
+}
+
+.works {
+height:250px;
+width:270px;
+float:left;
+margin:10px;
+padding:3px;
+}
+
+.works img{
+border: 3px solid #eeeeee;
+}
+
+#footer {
+height:83px;
+clear:both;
+border-top: 1px solid #eeeeee;
+}
+
+#abouth p {
+font-size: 14px;
+font-family: "Arial";
+color: rgb( 184, 184, 184 );
+line-height: 2.143;
+margin:0 25px 0 25px;
+padding-top:25px;
+}
+
+#footer p {
+display:inline;
+font-size: 12px;
+font-family: "Arial";
+color: rgb( 184, 184, 184 );
+line-height: 2.143;
+margin:0 25px 0 25px;
+padding-top:25px;
+}
+

@@ -1,0 +1,190 @@
+/*Скидання стилів для однакового перегляду у всіх браузерах*/
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,input,textarea,p,blockquote,th,td,menu{
+margin:0;padding:0;
+}
+table{
+border-collapse:collapse;border-spacing:0;
+}
+fieldset,img,abbr{
+border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+font-style:normal;font-weight:normal;
+}
+ul li{
+list-style:none;
+}
+caption,th{
+text-align:left;
+}
+//h1,h2,h3,h4,h5,h6{
+//font-size:100%;font-weight:normal;
+//}
+sup{
+vertical-align:text-top;
+}
+sub{
+vertical-align:text-bottom;
+}
+input,textarea,select{
+font-family:inherit;font-size:inherit;font-weight:inherit;
+}
+legend{
+color:#000;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+display:block;
+}
+/*Скидання стилів для однакового перегляду у всіх браузерах*/
+
+.wrap {
+	width: 970px;
+	height: inherit;
+	margin: 0 auto;
+	text-align:center;
+	position:relatve;
+}
+
+nav {
+	height:110px;
+	background:#EF5858;
+}
+
+.logo {
+float:left;
+margin-top:15px;
+margin-left:10px;
+}
+
+menu {
+float:right;
+margin-top:35px;
+margin-right:10px;
+}
+
+menu li{
+display:inline-block;
+font-size: 16px;
+}
+
+menu li a{
+font-family: "Arial";
+color: rgb( 255, 255, 255 );
+font-weight: bold;
+line-height: 1.688;
+text-decoration:none;
+padding:0 20px;
+}
+
+menu li:hover{
+background:black;
+border-radius:5px;
+}
+
+header {
+	height:635px;
+	background:#EB4F4E;
+}
+
+#team {
+	height:368px;
+	background:#232324;
+	
+}
+
+#follow {
+	height:515px;
+	background:#6CC372;
+}
+
+#portfolio{
+	height:560px;
+	background:#F0F0F0;
+}
+
+#price{
+	height:370px;
+	background:#FFFFFF;
+}
+
+
+#tweets{
+	height:277px;
+	background:#EB4F4E;
+}
+
+footer {
+	height:48px;
+	background:#232324;
+}
+
+#contacts{
+	height:251px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+/*  --------------Текст----------------*/
+.text h1 {
+  font-size: 60px;
+  font-family: "Bariol";
+  color: rgb( 255, 255, 255 );
+  line-height: 0.4;
+  text-shadow: 0.5px 0.866px 1px rgb( 195, 75, 42 );
+  padding-top:35px;
+}
+
+.text p {
+  font-size: 20px;
+  font-family: "Myriad Pro";
+  color: rgb( 255, 255, 255 );
+  line-height: 1.2;
+  text-shadow: 0.5px 0.866px 1px rgb( 195, 75, 42 );
+  margin-top:35px;
+  margin-bottom:35px;
+}
+/*  --------------Слайдер----------------*/
+ .slider {
+ z-index: 9;
+ width: 498px;
+ height: 347px;
+ overflow: hidden;
+ margin: 0 auto;
+ position: relative;
+ }
+ .slider ul, .slider li {
+ padding: 0;
+ margin: 0;
+ list-style-type: none;
+ }
+ .slider ul {
+ width: 9999px; 
+ }
+ .slider ul li {
+ list-style-type: none;
+ float: left;
+ width: 498px;
+ height: 347px;
+ }
+ .slider .nav {
+ position: absolute;
+ left: 210px;
+ bottom: 12px; 
+ }
+ .slider .nav span {
+ opacity: 0.9;
+ background: #fff;
+ margin: 0 8px 0 0;
+ width: 16px;
+ height: 16px;
+ border-radius: 8px;
+ cursor: pointer;
+ overflow: hidden;
+ display: block;
+ float: left;
+ box-shadow: 0 1px 2px #000;
+ }
+ .slider .nav span.on {
+ background: #2e9419;
+ }

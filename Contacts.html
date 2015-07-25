@@ -1,0 +1,72 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Контакти</title>
+		<meta charset="utf-8">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+<body>
+<div id="wrapper">
+	<div id="header"></div>	
+	<div id="links">
+		<div class="wrap">
+			<div class="animation"></div>		
+			<ul id="menu">
+				<li><a href="index.html">Головна</a></li>
+				<li><a href="Products.html">Продукти</a></li>
+				<li><a href="News.html">Новини</a></li>
+				<li><strong>Контакти</strong></li>
+				<li><a href="Applications.html">Додатки</a></li>
+				<li><a href="Model.html">Макет №1</a></li>
+				<li><a href="Model2.html">Макет №2</a></li>
+			</ul>	
+		</div>
+	</div>
+	<div id="left"></div>
+	<div id="content">
+		<form action="formdata.php" method="POST" name="form1">
+			<fieldset>
+				<legend>Набір персональних даних</legend>
+				<p class="question"><label for="name">Введіть ваше ім'я:</label></p>
+				<p><input class="input" type="text" name="name" id="name" size="20" maxlength="10"></p>
+				<p class="question"><label for="password">Введіть ваш пароль:</label></p>
+				<p><input class="input" type="password" name="password" id="password" size="20" maxlength="10"></p>
+			</fieldset>
+			<fieldset>
+				<legend>Питання</legend>
+					<p class="question">1. Велороверист?</p>
+						<p>
+							<label>Так<input type="radio" name="ask" value="yes" checked></label>     
+							<label>Ні<input type="radio" name="ask" value="no"></label>
+						</p>
+					<p class="question">2. Чим ви користуєтеся?</p>
+						<p>
+							<label><input type="checkbox" name="bl">Блокнот</label>
+							<label><input type="checkbox" name="sh">Щоденник</label>
+							<label><input type="checkbox" name="zo">Зошит</label>
+						</p>
+					<p class="question"><label for="sleep">3. Скільки годин на день ви спите?</label></p>
+						<p>
+							<select name="sleep" id="sleep">
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>Більше восьми</option>
+							</select>
+						</p>
+					<p class="question tp"><label for="text">4. Напишіть про себе.</label></p>
+					<p><textarea name="text" cols="30" rows="6" id="text">Написати текст...</textarea></p>
+			</fieldset>
+			<div id="buttons"><input type="button" name="button" value="Кніпка">
+				<input type="reset" name="reset" value="Скинути">
+				<input type="submit" name="submit" value="Відправити">
+			</div>
+		</form>
+	</div>
+	<div id="footer">
+		Copyright &copy; 2015 Yuriy Boyko. All rights reserved.
+	</div>
+</div>
+</body>
+</html>
